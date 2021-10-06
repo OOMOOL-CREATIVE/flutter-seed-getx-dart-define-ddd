@@ -11,6 +11,11 @@
  - 기존 패키지명 : com.oomool.creative.seed 
  - 전체 검색으로 수정
 
+## XCode Config / pre-build script 수정
+ - XCode pre build 스크립트에서 dart defines로 Voom.xcconfig 생성 부분 스크립트 파일명 변경
+ - Voom-Defaults.xcconfig 네이밍 변경
+ - stage 별 include 수정
+
 ## launch.json 수정
  - configuration name 수정
  - 앱 display name / suffix 수정
