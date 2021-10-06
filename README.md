@@ -14,3 +14,11 @@
 ## launch.json 수정
  - configuration name 수정
  - 앱 display name / suffix 수정
+
+## Build Command(Release)
+`flutter build ipa --dart-define DEFINEEXAMPLE_APP_NAME="앱이름" --dart-define DEFINEEXAMPLE_APP_SUFFIX=".dev" --release`
+`flutter build appbundle --dart-define DEFINEEXAMPLE_APP_NAME="앱이름" --dart-define DEFINEEXAMPLE_APP_SUFFIX=".dev" --release`
+
+## Android CD 세팅
+ - [안드로이드 사이닝 키 생성](https://flutter.dev/docs/deployment/android)
+ - [Codemagic distribution 사용을 위한 credentials.json 생성](https://docs.revenuecat.com/docs/creating-play-service-credentials)
